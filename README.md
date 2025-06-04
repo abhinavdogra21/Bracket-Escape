@@ -66,6 +66,6 @@ You can override the default keybinding in your VS Code `keybindings.json`:
 
 ### 💡 Demo
 
-📽 [Click here to watch the demo video](demo/demo-video.mov)
+https://github.com/user-attachments/assets/650db425-efa3-4144-9f6f-eadf4d482ee7
 
 
