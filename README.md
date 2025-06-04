@@ -66,7 +66,6 @@ You can override the default keybinding in your VS Code `keybindings.json`:
 
 ### 💡 Demo
 
-<video src="demo/demo-video" controls width="600">
-  Your browser does not support the video tag.
-</video>
+📽 [Click here to watch the demo video](demo/demo-video.mov)
+
 
