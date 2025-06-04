@@ -9,16 +9,24 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:bracketEscape.jumpOutsideBracket"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-      "commands": [
-    {
-      "command": "bracketEscape.jumpOutsideBracket",
-      "title": "Jump Outside Bracket"
-    }
-  ]
-
+    "commands": [
+      {
+        "command": "bracketEscape.jumpOutsideBracket",
+        "title": "Jump Outside Bracket"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "bracketEscape.jumpOutsideBracket",
+        "key": "ctrl+j",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
