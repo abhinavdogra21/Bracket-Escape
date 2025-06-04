@@ -64,6 +64,9 @@ You can override the default keybinding in your VS Code `keybindings.json`:
 - Run `npm run compile` to build the extension.
 - Press `F5` to open a new Extension Development Host and test the extension.
 
-## License
-MIT
+### 💡 Demo
+
+<video src="demo/demo-video.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
 
