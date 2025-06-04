@@ -12,7 +12,7 @@ Jump the cursor outside the nearest closing bracket in your code with a single k
 3. The cursor will jump just after the corresponding closing bracket.
 
 ## Install from GitHub
-This extension is not published on the VS Code Marketplace. To install it manually:
+This extension is not published on the VS Code Marketplace. To install it manually and enable it for all your projects:
 
 1. **Clone or download this repository:**
    ```sh
@@ -29,10 +29,19 @@ This extension is not published on the VS Code Marketplace. To install it manual
    npx vsce package
    ```
    This will create a `.vsix` file (e.g., `bracket-escape-0.0.1.vsix`).
-4. **Install the extension in VS Code:**
+4. **Install the extension globally in VS Code:**
    - Open the Command Palette (`Cmd+Shift+P` or `Ctrl+Shift+P`)
    - Run `Extensions: Install from VSIX...`
    - Select the generated `.vsix` file
+   
+   **OR**
+   
+   - Run the following command in your terminal:
+     ```sh
+     code --install-extension bracket-escape-0.0.1.vsix
+     ```
+   
+   Once installed, the extension will be available in all your VS Code projects automatically. You do not need to repeat these steps for each project.
 
 ## Custom Keybinding
 You can override the default keybinding in your VS Code `keybindings.json`:
